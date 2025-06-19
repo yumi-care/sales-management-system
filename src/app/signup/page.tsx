@@ -7,7 +7,6 @@ import styles from './page.module.css'
 import { Eye, EyeOff } from 'lucide-react'
 
 export default function SignupPage() {
-  const router = useRouter()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [showPassword, setShowPassword] = useState(false)
