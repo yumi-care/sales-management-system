@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import { useRouter } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
 import styles from './page.module.css'
 import { Eye, EyeOff } from 'lucide-react'
